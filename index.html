@@ -2,7 +2,39 @@
     <head>
         <title>Carlinha</title>
     </head>
+    <style>
+        html, body { height: 100%; padding: 0; margin: 0; }
+        div { width: 50%; height: 50%; float: left; text-align: center; } 
+         
+        .us  {
+            max-width:100%;
+            max-height:100%; 
+        }
+
+        .center { 
+            position: absolute;
+            left: 50%;
+            top: 50%; 
+            width: 25%;  
+            transform: translate(-50%, -50%);
+        }
+        
+        .innercenter {  
+            
+            position: absolute;
+            left: 50%;
+            top: 50%; 
+            width: 100%;  
+            transform: translate(-50%, -50%);
+        }
+    </style>
     <body>
-        <p>carlinha</p>
+        <div> <img class="us" src="1.jpg" alt="1"></div>
+        <div> <img class="us" src="2.jpg" alt="2"></div>
+        <div> <img class="us" src="3.jpg" alt="3"></div>
+        <div> <img class="us" src="4.jpg" alt="4"></div>
+       
+            <img class="center" src="heart2.svg" alt="4"> 
+        
     </body>
 </html>
